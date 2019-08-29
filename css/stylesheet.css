@@ -148,11 +148,11 @@ header{
     display: table-cell;
     vertical-align: middle;
 
-
 }
-.header-right {
+.header-right ,.entry{
     display: flex;
     justify-content: flex-end;
+
 }
 .header-right li,.entry{
     font-weight: bold;
@@ -169,6 +169,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .entry{
@@ -178,5 +179,9 @@ header{
     height: 82px;
     padding: 25px 70px;
 
-
 }
+
+/* TOP画像 */
+ .top-img img{
+    width: 100%;
+ }
