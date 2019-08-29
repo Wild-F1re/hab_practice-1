@@ -107,20 +107,28 @@ input, select {
 }
 
 
-/* ------ここまでリセットCSS------- */
+/* ----------------------------------ここまでリセットCSS------------------------------------ */
 
 
 
+
+/* 全体 */
 
 body{
     background-color: #BDBDBD;
 }
+
+
+
+/* ヘッダー */
+
 header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 82px;
+
+    top: 0;
+    left: 0;
+    
     background-color: white;
     display: flex;
     justify-content: space-between;
