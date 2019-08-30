@@ -184,12 +184,14 @@ body{
 }
 
 /* TOP画像 */
-
- .top-img img{
-    width: 100%;
+.main__wrapper{
     position: relative;
+}
+ .wrapper--background-image{
+    width: 100vw;
+
  }
- .top-imgtext{
+ .wrapper__catch{
     color: white;
     font-size: 50px;
     font-weight: bold;
@@ -204,21 +206,21 @@ body{
     right: 0;
     margin: auto;
  }
- .scloll-down{
-     color: white;
-     background-color: black;
+ .wrapper__Scrollbtn {
+    color: white;
+    font-size: 25px;
+    background-color: black;
 
-     text-align: center;
-     vertical-align: middle;
+    height: 50px;
+    width: 300px;
 
-     width: 300px;
-     height: 50px;
+    text-align: center;
+    padding:15px 20px; 
 
-     position: absolute;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
     
-     left: 0;
-     right: 0;
-     margin:auto;
-
-
  }
