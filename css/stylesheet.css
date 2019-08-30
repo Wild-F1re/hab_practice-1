@@ -135,12 +135,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.info__logo{
+.info-block__logo{
     width: 175px;
     margin: 20px 15px 20px 30px;
     float: left;
 }
-.info__title {
+.infoblock__title {
     font-size: 15px;
     font-family: "Yu Gothic Midium";
     font-weight: 500px;
@@ -151,13 +151,13 @@ body{
     vertical-align: middle;
 
 }
-.nav-gloval__menu,.menu__list{
+.nav-gloval__menu,.nav-menu__list{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 
 }
-.btn--link,.entry--link{
+.nav-btn--link,.nav-entry--link{
     color: black;
     font-weight: bold;
     list-style: none;
@@ -176,7 +176,7 @@ body{
     align-items: center;
 
 }
-.entry--link{
+.nav-entry--link{
     color: white;
     background-color: black;
     padding: 25px 70px;
