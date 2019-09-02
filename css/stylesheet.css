@@ -117,7 +117,9 @@ input, select {
 /* body{
     background-color: #BDBDBD;
 } */
-
+body{
+    font-family: "Yu Gothic Medium","游ゴシック Medium",YuGothic,游ゴシック体,"ヒラギノ角ゴ Pro W3",メイリオ,sans-serif;
+}
 
 
 /* ヘッダー */
@@ -264,4 +266,51 @@ input, select {
 .wrapper03{
     padding: 6% 0 8%;
     background: #f7f7f5;
+}
+#people{
+    width: 85%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.main-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8%;
+
+}
+.main-list__img{
+    width: 50%;
+    text-align: center;
+
+}
+.main-list__info{
+    width: 50%;
+    height: 100%;
+    flex-basis: 45%;
+    padding-top: 3%;
+    
+}
+
+.li-infobox__tiny{
+    font-size: 16px;
+
+}
+.li-infobox__tiny span{
+    font-size: 12px;
+}
+.li-name__Ja{
+    font-size:33px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    line-height: 200%;
+}
+.li-name__En{
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+.li-infobox__text{
+    font-size: 18px;
+    margin-top: 4%;
+    line-height: 200%;
 }
