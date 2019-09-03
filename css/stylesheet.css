@@ -233,7 +233,7 @@ body{
     text-align: center;
     letter-spacing: 7.5px;
     margin-bottom: 4%;
-    padding: 6% 0 8%;
+    /* padding: 6% 0 8%; */
  }
  .section-title__En{
     font-size: 30px;
@@ -242,12 +242,16 @@ body{
     font-size: 15px;
     margin-top:2%;
 }
+/* wrapper */
+.wrapper02,.wrapper03,.wrapper04,.wrapper05,.wrapper06{
+    padding: 6% 0 8%;
+}
 
 
 /* ABOUT US */
 .top-contents{
     background-color:white;
-    padding: 8% 0%;
+    /* padding: 8% 0%; */
 }
 .top-container{
     color:#212121;
@@ -261,8 +265,6 @@ body{
     font-weight: 700;
     text-align: left;
     line-height: 200%;
-    white-space: pre-wrap;
-
 }
 
 /* PEOPLE */
@@ -399,6 +401,7 @@ body{
 .concept-container{
     top: -50px;
     width: 85%;
+    padding: 4%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -410,13 +413,16 @@ body{
 .concept-box__name{
     font-size: 22px;
     font-weight: 700;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 .concept-box__heading{
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     margin-top: 3%;
+    line-height: 200%;
 }
 .concept-box__text{
     font-size: 18px;
+    margin-top: 3%;
+    line-height: 200%;
 }
