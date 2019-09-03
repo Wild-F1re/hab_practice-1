@@ -181,7 +181,9 @@ body{
 .nav-entry--link{
     color: white;
     background-color: black;
+    letter-spacing: 2.7px;
     padding: 25px 70px;
+    flex-basis: 15%;
 
 }
 
@@ -231,6 +233,7 @@ body{
     text-align: center;
     letter-spacing: 7.5px;
     margin-bottom: 4%;
+    padding: 6% 0 8%;
  }
  .section-title__En{
     font-size: 30px;
@@ -264,7 +267,6 @@ body{
 
 /* PEOPLE */
 .wrapper03{
-    padding: 6% 0 8%;
     background: #f7f7f5;
 }
 #people{
@@ -313,4 +315,75 @@ body{
     font-size: 18px;
     margin-top: 4%;
     line-height: 200%;
+}
+
+/* REQUIREMENTS */
+.secondary__container{
+    padding: 0 3%;
+    max-width: 100%;
+
+}
+.list02{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.list02 li{
+
+    flex-basis: 32%;
+    justify-content: center;
+    margin: 0 1%;
+
+    /* border: 1px solid black; */
+}
+
+.list02__img{
+    position: relative;
+
+}
+.list02__img img{
+    height: 300px;
+    width: 100%;
+}
+.list02-job{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+.list02-job__01{
+  color:white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-left: 30px;
+  line-height: 160%
+}
+.list02-job__02{
+  color:white;
+  background-color: #000;
+  font-size:  25px;
+  padding: 15px 30px;
+
+}
+.list02__info{
+    padding: 6%;
+    border:2px solid #f5f5f5;
+}
+
+.list02__text{
+    color: #616161;
+    font-size: 15px;
+    line-height: 180%;
+
+}
+
+.list02__foot{
+    color: #333333;
+    display: flex;
+    list-style: none;
+    margin-top: 6%;
+    font-size: 13px;
+}
+
+#list02-textlist{
+    list-style: disc;
 }
