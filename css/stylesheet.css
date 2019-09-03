@@ -426,3 +426,24 @@ body{
     margin-top: 3%;
     line-height: 200%;
 }
+
+/* COMPANY */
+.list03{
+    width: 85%;
+    max-width: 1200px;
+    font-size: 18px;
+    margin: 0 auto;
+    list-style: none;
+}
+.list03 li{
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    padding: 3%;
+    border-spacing: 3px;
+}
+.list03__item{
+    /* border: 1px solid black; */
+    width: 20%;
+    font-weight: bold;
+
+}
