@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="11px" viewBox="0 0 33 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="btn-entry" transform="translate(-1043.000000, -70.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Rectangle">
+                <g transform="translate(1023.000000, 70.000000)">
+                    <polygon points="20.3824179 8.49139221 50.531411 8.49139221 50.9560447 10.6142403 20.3824179 10.6142403"></polygon>
+                    <polygon id="Rectangle-Copy-3" transform="translate(46.551840, 6.049733) rotate(45.000000) translate(-46.551840, -6.049733) " points="39.2011238 4.8448344 51.6843933 5.09865319 53.9025553 5.15420539 51.8021295 7.25463119 39.2434269 6.92537932"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

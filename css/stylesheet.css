@@ -484,12 +484,27 @@ body{
     padding: 3%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
+
 .info-container__link a{
     font-size: 49px;
 
     color: white;
     text-decoration: none;
+
+}
+.info-container__link a::after{
+    content: "";
+    background: url(../img/arrow_right.svg);
+    background-size: 53px 12px;
+    width: 53px;
+    height: 12px;
+    position: absolute;
+    top: 70px;
+    right: 124px;
+    z-index: 2;
+
 }
 /* MAP */
 .map__01{
