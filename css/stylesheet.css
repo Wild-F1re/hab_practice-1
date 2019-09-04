@@ -253,6 +253,9 @@ body{
 
 
 /* ABOUT US */
+.wrapper02{
+    padding:8% 0;
+}
 .top-contents{
     background-color:white;
     /* padding: 8% 0%; */
