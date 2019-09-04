@@ -136,6 +136,7 @@ body{
     background-color: white;
     display: flex;
     justify-content: space-between;
+
 }
 .info-block__logo{
     width: 175px;
@@ -159,6 +160,7 @@ body{
     align-items: center;
 
 }
+
 .nav-btn--link,.nav-entry--link{
     color: black;
     font-weight: bold;
@@ -507,6 +509,7 @@ footer{
     flex-direction: column;
     flex-basis: auto;
     width: 30%;
+    align-self: center;
 
 }
 .footer__logo{
