@@ -446,6 +446,24 @@ body{
     width: 20%;
     font-weight: bold;
 
+
+}
+.list03__text a{
+    text-decoration: none;
+}
+#EntryRecruit{
+
+    background-color: #000;
+    letter-spacing: 6px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+.info-container__link a{
+    font-size: 49px;
+
+    color: white;
+    text-decoration: none;
 }
 /* MAP */
 .map__01{
