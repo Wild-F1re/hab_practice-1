@@ -235,16 +235,21 @@ body{
  /* セクションのタイトル（共通） */
  .section-title{
     text-align: center;
-    letter-spacing: 7.5px;
+    font-weight: 700;
     margin-bottom: 4%;
+    line-height: 100%;
     /* padding: 6% 0 8%; */
+
  }
  .section-title__En{
     font-size: 30px;
+    letter-spacing: 7.5px;
 }
 .section-title__Ja{
     font-size: 15px;
+    line-height: 16px;
     margin-top:2%;
+    letter-spacing: 3px;
 }
 /* wrapper */
 .wrapper02,.wrapper03,.wrapper04,.wrapper05,.wrapper06{
@@ -277,6 +282,8 @@ body{
 /* PEOPLE */
 .wrapper03{
     background: #f7f7f5;
+    padding: 6% 0 0;
+    
 }
 #people{
     width: 85%;
@@ -289,6 +296,9 @@ body{
     align-items: center;
     margin-bottom: 8%;
 
+}
+.main__wrapper{
+    padding-bottom: 3%;
 }
 .main-list__img{
     width: 50%;
