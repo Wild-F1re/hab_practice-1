@@ -190,6 +190,7 @@ body{
 /* TOP画像 */
 .main__wrapper{
     position: relative;
+
 }
  .topwrapper--background-img{
     width: 100%;
@@ -297,7 +298,7 @@ body{
     margin-bottom: 8%;
 
 }
-.main__wrapper{
+.people__wrapper{
     padding-bottom: 3%;
 }
 .main-list__img{
@@ -499,6 +500,7 @@ footer{
     display: flex;
     flex-direction: column;
     flex-basis: auto;
+    width: 30%;
 
 }
 .footer__logo{
@@ -519,9 +521,7 @@ footer{
 
 }
 .footer__logo img{
-    min-width: 50px;
-    max-width: 175px;
-    height: 50px;
+    height: 30px;
     align-self: center;
     object-fit: contain; 
 }
@@ -560,6 +560,10 @@ footer{
 .SNS-list li{
     margin-left: 3%;
 
+}
+.SNS__LINE{
+    height: 26px;
+    width: auto;
 }
 .footer__powered{
     display: flex;
