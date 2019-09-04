@@ -192,7 +192,11 @@ body{
     position: relative;
 }
  .topwrapper--background-img{
-    width: 100vw;
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+
+    object-fit: cover;
  }
  .topwrapper__catch{
     color: white;
