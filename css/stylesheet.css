@@ -160,6 +160,9 @@ body{
     align-items: center;
 
 }
+.nav-menu__icon{
+    display: none;
+}
 
 .nav-btn--link,.nav-entry--link{
     color: black;

@@ -1,3 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
+@media(max-width: 670px){
+    .nav-list,.nav-entry{
+        display: none;
+    }
+    .nav-menu__icon{
+        display: block;
+    }
+}
