@@ -78,6 +78,14 @@
     }
 
     /* COMPANY */
+    .list03 li{
+        flex-direction: column;
+        vertical-align: middle;
+        line-height: 200%;
+    }
+    .list03__item,.list03__text{
+        width:100%;
+    }
     .info-container__link a{
         font-size: 20px;
     }
