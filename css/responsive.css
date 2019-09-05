@@ -77,4 +77,61 @@
         margin-bottom: 10%;
     }
 
+    /* COMPANY */
+    .info-container__link a{
+        font-size: 20px;
+    }
+    .info-container__link a::after{
+        background-size: 50%;
+    }
+
+    /* footer */
+    footer{
+        flex-direction: column-reverse;
+        width:100%;
+
+    }
+    .footer__box{
+        width:100%;
+        margin:0 auto;
+    }
+    .footer__menu{
+        
+    }
+    #footer-menu{
+        flex-direction: column;
+        padding: 16% 0 0;
+        line-height: 200%;
+
+    }
+    .footer-menu__btn{
+        width: 90%;
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 8%;
+    }
+    .SNS-list{
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    .SNS-list img{
+        height: 40px;
+    }
+
+    .footer__info{
+        width: 100vw;
+        justify-content: flex-start;
+        padding: 5%;
+    }
+
+    .footer__powered{
+        justify-content: center;
+        display: none;
+    }
+    .footer__powered02{
+        display: flex;
+        padding: 6% 0 6%;
+
+    }
 }

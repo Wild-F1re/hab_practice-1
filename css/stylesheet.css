@@ -496,7 +496,7 @@ body{
     padding: 3%;
     display: flex;
     justify-content: center;
-    position: relative;
+
     line-height: 170%;
 
 
@@ -510,17 +510,18 @@ body{
     white-space: nowrap;
     color: white;
     text-decoration: none;
+    position: relative;
 
 }
 .info-container__link a::after{
     content: "";
-    background: url(../img/arrow_right.svg);
+    background: url(../img/arrow_right.svg) no-repeat;
     background-size: 53px 12px;
     width: 53px;
     height: 12px;
     position: absolute;
-    top: 70px;
-    right: 124px;
+    top: 50%;
+    right: 10%;
     z-index: 2;
 
 }
@@ -619,4 +620,7 @@ footer{
     width: 80px;
     height: auto;
     margin-left: 1%;
+}
+.footer__powered02{
+    display: none;
 }
