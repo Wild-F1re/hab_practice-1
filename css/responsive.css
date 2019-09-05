@@ -3,6 +3,7 @@
 }
 
 @media(max-width: 670px){
+
     .nav-list,.nav-entry{
         display: none;
     }
@@ -41,7 +42,6 @@
         width: 90%;
         margin: 0 auto;
     }
-    .top-container{}
 
 
     /* people */
@@ -57,7 +57,6 @@
         width: 100vw;
         object-fit: cover;
     }
-    }
     .main-list__02{
         flex-wrap: wrap;
     }
@@ -66,6 +65,16 @@
         padding-top: 10%;
         width:90%;
         margin:0 auto;
+    }
+
+    /* req */
+    .list02{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .list02 li{
+        width: 100%;
+        margin-bottom: 10%;
     }
 
 }
