@@ -13,6 +13,7 @@
 
 
     /* top */
+
     .topwrapper__catch{
         font-size: 5vw;
         letter-spacing: 2vw;
@@ -33,7 +34,7 @@
     }
 
     /* wrapper */
-    .wrapper02,.wrapper03,.wrapper04,.wrapper05{
+    .wrapper02,.wrapper03,.wrapper04,.wrapper05,.wrapper06{
         padding: 25% 0;
     }
 
@@ -80,14 +81,18 @@
     /* COMPANY */
     .list03 li{
         flex-direction: column;
-        vertical-align: middle;
         line-height: 200%;
     }
     .list03__item,.list03__text{
         width:100%;
     }
+    .info-container__link{
+
+    }
     .info-container__link a{
         font-size: 20px;
+        height: 100%;
+
     }
     .info-container__link a::after{
         background-size: 50%;
