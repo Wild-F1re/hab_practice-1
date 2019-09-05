@@ -9,4 +9,63 @@
     .nav-menu__icon{
         display: block;
     }
+
+
+    /* top */
+    .topwrapper__catch{
+        font-size: 5vw;
+        letter-spacing: 2vw;
+        word-break: break-all;
+    }
+    .topwrapper__Scrollbtn{
+        font-size: 3vw;
+        /* letter-spacing: 2vw; */
+        width: 25vw;
+        padding: 3%;
+
+    }
+
+
+    /* section title */
+    .section-title{
+        margin-bottom: 10%;
+    }
+
+    /* wrapper */
+    .wrapper02,.wrapper03,.wrapper04,.wrapper05{
+        padding: 25% 0;
+    }
+
+    /* about */
+    .top-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .top-container{}
+
+
+    /* people */
+    
+    .main{
+        width: 100%;
+    }
+    .main-list__item{
+        width: 100vw;
+        flex-basis: 100%;
+    }
+    .main-list__img{
+        width: 100vw;
+        object-fit: cover;
+    }
+    }
+    .main-list__02{
+        flex-wrap: wrap;
+    }
+    .main-list__info{
+        flex-basis: 90%;
+        padding-top: 10%;
+        width:90%;
+        margin:0 auto;
+    }
+
 }

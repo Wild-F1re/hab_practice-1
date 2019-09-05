@@ -291,17 +291,26 @@ body{
     padding: 6% 0 0;
     
 }
-#people{
+.main{
     width: 85%;
     max-width: 1150px;
     margin: 0 auto;
 }
-.main-list li{
+.main-list__item{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8%;
+    list-style: none;
 
+}
+.li-right{
+    flex-direction: row-reverse;
+}
+.main-list__02{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 .people__wrapper{
     padding-bottom: 3%;
@@ -316,7 +325,7 @@ body{
     height: 100%;
     flex-basis: 45%;
     padding-top: 3%;
-    
+    align-self: center;
 }
 
 .li-infobox__tiny{
