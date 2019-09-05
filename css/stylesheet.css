@@ -485,11 +485,17 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    line-height: 170%;
+
+
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .info-container__link a{
     font-size: 49px;
-
+    white-space: nowrap;
     color: white;
     text-decoration: none;
 
