@@ -196,7 +196,9 @@ body{
 .sp-button {
     display: none;
 }
-
+#header-modal{
+    display:none;
+}
 /* TOP画像 */
 .main-img__wrapper{
     position: relative;

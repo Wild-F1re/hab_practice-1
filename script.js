@@ -11,4 +11,30 @@ $(function(){
 
     });
 
+
+    // sp-button
+
+    // $('.sp-button').click(function(){
+
+    //     $('header').addClass('openNav');
+
+    // });
+
+    // $('.sp-button').click(function(){
+    //     $('header').has('.openNav').addClass('closeNav');
+    // });
+
+
+    $('.sp-button').click(function(){
+
+        if($('header').hasClass('openNav')){
+            $('header').removeClass('openNav');
+            $('#header-modal').fadeOut();
+
+        }else{
+            $('header').addClass('openNav');
+            $('#header-modal').fadeIn();
+        }
+
+    });
 });
