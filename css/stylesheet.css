@@ -432,9 +432,9 @@ body{
     width: 100%;
 }
 
-.list02 :hover{
+.list02-item:hover{
     /* background-color: red; */
-    display: block;
+
     box-shadow: 0  2px 14px 0 #ddd;
 }
 
