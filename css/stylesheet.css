@@ -431,6 +431,15 @@ body{
 #list02-textlist li{
     width: 100%;
 }
+
+.list02 :hover{
+    /* background-color: red; */
+    display: block;
+    box-shadow: 0  2px 14px 0 #ddd;
+}
+
+
+
 /* MESSAGE */
 .wrapper05{
     background: #f7f7f5;
