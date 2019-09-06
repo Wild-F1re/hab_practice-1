@@ -292,12 +292,13 @@ body{
     
 }
 .main{
-    width: 85%;
+    width: 85vw;
     max-width: 1150px;
     margin: 0 auto;
 }
 .main-list__item{
     display: flex;
+    width:100%;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8%;
@@ -317,7 +318,13 @@ body{
 }
 .main-list__img{
     width: 50%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+.main-list__img img{
+    width: 100%;
+
 
 }
 .main-list__info{
