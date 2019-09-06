@@ -10,8 +10,72 @@
     .nav-menu__icon{
         display: block;
     }
-    .info-block{
+
+    header{
+        height: 15vw;
         width: 100%;
+    }
+    .nav-gloval{
+        height: 15vw;
+        width: 100%;
+
+    }
+    .info-block{
+        flex-basis: auto;
+        flex-grow: 1;
+
+    }
+    .info-block__logo{
+        max-width: 30%!important;
+        min-width: 50px;
+        height: auto;
+        object-fit: contain;
+        margin: 1.6% 2%;
+        
+    }
+    .infoblock__title{
+        font-size: 3vw;
+    }
+
+    /* sp-button */
+    .sp-button{
+        display: block;
+        background: #212121;
+        min-width: 15vw;
+        width: 15vw;
+        height:15vw;
+        
+    }
+
+    #navToggle{
+        position: absolute;
+        right: 4vw;
+        top: 5vw;
+        width: 6vw;
+        height: 4vw;
+        z-index: 100;
+    }
+    #navToggle div{
+        position: relative;
+    }
+    #navToggle span{
+        display: block;
+        position: absolute;
+        width: 100%;
+        border-bottom: 2px solid #fff;
+        right: 0;
+    }
+
+    #navToggle span:nth-of-type(1){
+        top: 0;
+    }
+    #navToggle span:nth-of-type(2){
+        width: 80%;
+        top: 1.9vw;
+    }
+    #navToggle span:nth-of-type(3){
+        width: 60%;
+        top: 3.8vw;
     }
 
 

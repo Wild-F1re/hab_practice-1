@@ -193,6 +193,9 @@ body{
     flex-basis: 15%;
 
 }
+.sp-button {
+    display: none;
+}
 
 /* TOP画像 */
 .main-img__wrapper{
