@@ -10,6 +10,9 @@
     .nav-menu__icon{
         display: block;
     }
+    .info-block{
+        width: 100%;
+    }
 
 
     /* top */
