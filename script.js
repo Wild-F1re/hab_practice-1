@@ -1,6 +1,6 @@
 $(function(){
 
-    $('header a,.info-container__link a').click(function(){
+    $('header a,.info-container__link a,footer a').click(function(){
 
         var id = $(this).attr('href');
         var position = $(id).offset().top;
