@@ -1,6 +1,6 @@
 $(function(){
 
-    $('header a,.info-container__link a,footer a').click(function(){
+    $('header a,.info-container__link a,footer a,.header-modal__list a').click(function(){
 
         var id = $(this).attr('href');
         var position = $(id).offset().top;
@@ -37,4 +37,12 @@ $(function(){
         }
 
     });
+
+    $('.header-modal__list a').click(function(){
+
+        $('#header-modal').hide();
+        $('header').removeClass('openNav');
+
+    });
+
 });
