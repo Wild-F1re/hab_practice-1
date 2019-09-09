@@ -197,6 +197,9 @@
         width: 90%;
         margin: 0 auto;
     }
+    .top-container__text{
+        font-size:4.6vw;
+    }
 
 
     /* people */
@@ -276,6 +279,10 @@
     }
     .list02__text{
         font-size: 3.6vw;
+    }
+    #list02-textlist li{
+        list-style-position: inside;
+        margin-bottom: 0;
     }
     .list02__foot{
         font-size: 3vw;
