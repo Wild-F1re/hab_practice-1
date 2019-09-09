@@ -109,6 +109,7 @@
     }
     .header-modal__list li{
         margin-bottom: 10%;
+        list-style: none;
     }
     .header-modal__list a{
         text-decoration: none;

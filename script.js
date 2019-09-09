@@ -30,12 +30,17 @@ $(function(){
         if($('header').hasClass('openNav')){
             $('header').removeClass('openNav');
             $('body').removeClass('no-scroll');
-            $('#header-modal').fadeOut();
+            // $('#header-modal').hide();
+            setTimeout(function(){
+                $('#header-modal').hide();
+            },100);   
 
         }else{
             $('header').addClass('openNav');
             $('body').addClass('no-scroll');
-            $('#header-modal').fadeIn();
+            setTimeout(function(){
+                $('#header-modal').show();
+            },100);  
         }
 
     });
