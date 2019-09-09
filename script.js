@@ -45,6 +45,7 @@ $(function(){
         $('#header-modal').hide();
         $('header').removeClass('openNav');
         $('body').removeClass('no-scroll');
+        $('#navToggle div').removeClass('active');
 
     });
 
