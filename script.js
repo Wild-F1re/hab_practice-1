@@ -29,12 +29,12 @@ $(function(){
 
         if($('header').hasClass('openNav')){
             $('header').removeClass('openNav');
-            $('body').removeClass('no-scroll')
+            $('body').removeClass('no-scroll');
             $('#header-modal').fadeOut();
 
         }else{
             $('header').addClass('openNav');
-            $('body').addClass('no-scroll')
+            $('body').addClass('no-scroll');
             $('#header-modal').fadeIn();
         }
 
@@ -44,6 +44,7 @@ $(function(){
 
         $('#header-modal').hide();
         $('header').removeClass('openNav');
+        $('body').removeClass('no-scroll');
 
     });
 
