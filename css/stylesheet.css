@@ -646,3 +646,7 @@ footer{
 .footer__powered02{
     display: none;
 }
+
+.no-scroll{
+    overflow: hidden;
+}
