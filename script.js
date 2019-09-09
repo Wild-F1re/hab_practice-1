@@ -45,4 +45,12 @@ $(function(){
 
     });
 
+
+    // ハンバーガーメニュー　アニメーション
+    $('.sp-button').click(function(){
+
+        $('#navToggle div').toggleClass('active');
+
+    });
+
 });

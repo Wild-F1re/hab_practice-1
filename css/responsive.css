@@ -69,14 +69,17 @@
 
     #navToggle span:nth-of-type(1){
         top: 0;
+        transition: .35s;
     }
     #navToggle span:nth-of-type(2){
         width: 80%;
         top: 1.9vw;
+        transition: .35s;
     }
     #navToggle span:nth-of-type(3){
         width: 60%;
         top: 3.8vw;
+        transition: .35s;
     }
 
 
@@ -134,6 +137,23 @@
         z-index: 101;
         background-size: contain;
     }
+
+
+    /* ハンバーガーメニュー　アニメーション */
+    .active span:nth-of-type(1){
+        transform: rotate(-45deg);
+        top: 1.9vw !important;
+        transition: .35s;
+    }
+    .active span:nth-of-type(2),
+    .active span:nth-of-type(3){
+        transform: rotate(45deg);
+        width: 100%!important;
+        top:1.9vw !important;
+        transition: .35s;
+    }
+
+
     /* top */
     .topwrapper--background-img{
         height: 150vw;
