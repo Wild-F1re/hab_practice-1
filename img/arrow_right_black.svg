@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="8px" viewBox="0 0 23 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="black_sp_1" transform="translate(-321.000000, -4843.000000)" fill="#212121">
+            <g id="requirements" transform="translate(19.000000, 4388.000000)">
+                <g id="thumb-1" transform="translate(0.000000, 116.000000)">
+                    <g id="data" transform="translate(0.000000, 93.169998)">
+                        <g id="arrow" transform="translate(302.000000, 245.000000)">
+                            <g transform="translate(0.000000, 0.581002)">
+                                <polygon id="Rectangle" fill-rule="nonzero" points="0.269230765 6.29999989 21.3758009 6.29999989 21.6730766 7.69999987 0.269230765 7.69999987"></polygon>
+                                <polygon id="Rectangle-Copy-3" fill-rule="nonzero" transform="translate(18.605192, 4.694975) rotate(45.000000) translate(-18.605192, -4.694975) " points="13.618167 4.03225231 22.0989361 3.95148308 23.6056785 3.94423551 22.135222 5.41469206 13.6047054 5.44571382"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
