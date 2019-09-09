@@ -243,6 +243,22 @@
         margin-bottom: 10%;
     }
 
+    .list02__info{
+        position: relative;
+    }
+
+    .list02__info::after{
+        content: "";
+        background: url(../img/arrow_right_black.svg) no-repeat;
+        width: 5vw;
+        height: 1.5vw;
+        position: absolute;
+        right: 3%;
+        bottom: 5%;
+        z-index: 1;
+        background-size: contain;
+    }
+
     .list02__img{
         height: 50vw;
     }
