@@ -439,6 +439,7 @@ body{
 
 #list02-textlist{
     list-style: disc;
+    list-style-position: inside;
 }
 
 #list02-textlist li{
